@@ -1,6 +1,6 @@
 package org.pluralsight.builder;
 
-public class LunchOrderBuilder {
+public class LunchOrderWithABuilderInside {
 
     public static class Builder {
         private String bread;
@@ -12,8 +12,8 @@ public class LunchOrderBuilder {
 
         }
 
-        public LunchOrderBuilder build() {
-            return new LunchOrderBuilder(this);
+        public LunchOrderWithABuilderInside build() {
+            return new LunchOrderWithABuilderInside(this);
         }
 
         public Builder bread(String bread) {
@@ -43,7 +43,7 @@ public class LunchOrderBuilder {
     private final String dressing;
     private final String meat;
 
-    private LunchOrderBuilder(Builder builder) {
+    private LunchOrderWithABuilderInside(Builder builder) {
         this.bread = builder.bread;
         this.condiments = builder.condiments;
         this.dressing = builder.dressing;

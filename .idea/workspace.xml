@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2637b873-b626-4cb3-8840-aa0709243b76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/BuilderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/LunchOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/LunchOrderBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/LunchOrderTelescopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pluralsight/singleton/DbSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pluralsight/singleton/DbSingletonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/pluralsight/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-jdbc-databases" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/BuilderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/BuilderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/LunchOrderBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/LunchOrderWithABuilderInside.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-jdbc-databases" beforeDir="false" afterPath="$PROJECT_DIR$/../java-jdbc-databases" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,38 +24,27 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AnoMQI4D2P7TcRMWwbw7U9ZK7C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.BuilderDemo">
-    <configuration name="BuilderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pluralsight.builder.BuilderDemo" />
-      <module name="CreationalDesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.pluralsight.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.PrototypeDemo">
     <configuration name="DbSingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.pluralsight.singleton.DbSingletonDemo" />
       <module name="CreationalDesignPatterns" />
@@ -81,10 +58,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrototypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pluralsight.prototype.PrototypeDemo" />
+      <module name="CreationalDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pluralsight.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.pluralsight.builder.BuilderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pluralsight.builder.BuilderDemo" />
+      <module name="CreationalDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pluralsight.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BuilderDemo" />
-        <item itemvalue="Application.org.pluralsight.singleton.DbSingletonDemo" />
+        <item itemvalue="Application.PrototypeDemo" />
+        <item itemvalue="Application.org.pluralsight.builder.BuilderDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -109,5 +112,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CreationalDesignPatterns$PrototypeDemo.ic" NAME="PrototypeDemo Coverage Results" MODIFIED="1656104504716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.pluralsight.prototype.*</FILTER>
+    </SUITE>
   </component>
 </project>

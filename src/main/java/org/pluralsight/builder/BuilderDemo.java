@@ -21,11 +21,11 @@ public class BuilderDemo {
         System.out.println(lunchOrderTelescopic.getMeat());
 
         /// ---- Builder ---- ///
-        LunchOrderBuilder.Builder builder = new LunchOrderBuilder.Builder();
+        LunchOrderWithABuilderInside.Builder builder = new LunchOrderWithABuilderInside.Builder();
 
         builder.bread("Wheat").dressing("Mayo").meat("Turkey").condiments("testingOut");
 
-        LunchOrderBuilder lunchOrder1 = builder.build();
+        LunchOrderWithABuilderInside lunchOrder1 = builder.build();
 
         System.out.println(lunchOrder1.getBread());
         System.out.println(lunchOrder1.getCondiments());
