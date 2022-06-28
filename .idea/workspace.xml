@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2637b873-b626-4cb3-8840-aa0709243b76" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/BuilderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/BuilderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/LunchOrderBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pluralsight/builder/LunchOrderWithABuilderInside.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-jdbc-databases" beforeDir="false" afterPath="$PROJECT_DIR$/../java-jdbc-databases" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -44,13 +43,31 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PrototypeDemo">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.pluralsight.factory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.pluralsight.factory.FactoryDemo">
     <configuration name="DbSingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.pluralsight.singleton.DbSingletonDemo" />
       <module name="CreationalDesignPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.pluralsight.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pluralsight.factory.FactoryDemo" />
+      <module name="CreationalDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pluralsight.factory.blogPages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.pluralsight.factory.FactoryDemo" />
         <item itemvalue="Application.PrototypeDemo" />
         <item itemvalue="Application.org.pluralsight.builder.BuilderDemo" />
       </list>
